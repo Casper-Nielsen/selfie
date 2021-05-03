@@ -31,6 +31,7 @@
         android:layout_width="375dp"
         android:layout_height="550dp"
         android:maxHeight="450dp"
+        android:contentDescription="@string/image_desc"
         app:layout_constraintBottom_toTopOf="@+id/guideline_center_image_horizontal"
         app:layout_constraintEnd_toStartOf="@+id/guideline_center_vertical"
         app:layout_constraintStart_toStartOf="@+id/guideline_center_vertical"
@@ -38,22 +39,25 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="back"
+        android:text="@string/back"
+        android:onClick="onBackButtonClick"
         android:layout_marginRight="10dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline_button_panel_horizontal"
         app:layout_constraintEnd_toStartOf="@+id/guideline_center_vertical"
         app:layout_constraintTop_toTopOf="@+id/guideline_button_panel_horizontal" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/save_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="save"
+        android:text="@string/Save"
+        android:onClick="onSaveButtonClick"
         android:layout_marginLeft="10dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline_button_panel_horizontal"
         app:layout_constraintStart_toStartOf="@+id/guideline_center_vertical"
         app:layout_constraintTop_toTopOf="@+id/guideline_button_panel_horizontal" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

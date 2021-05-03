@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Selfie</string>
+    <string name="image_desc">et Selfie</string>
+    <string name="back">tilbage</string>
+    <string name="TakeSelfie">tag et selfie</string>
+    <string name="Save">gem</string>
 </resources>

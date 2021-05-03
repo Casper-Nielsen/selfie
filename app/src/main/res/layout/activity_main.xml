@@ -26,7 +26,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:onClick="onButtonTakeClicked"
-        android:text="Take selfie"
+        android:text="@string/TakeSelfie"
         app:layout_constraintBottom_toTopOf="@+id/guideline_center_horizontal"
         app:layout_constraintEnd_toStartOf="@+id/guideline_center_vertical"
         app:layout_constraintStart_toStartOf="@+id/guideline_center_vertical"
